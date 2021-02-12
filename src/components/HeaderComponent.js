@@ -1,14 +1,15 @@
 import React, { Component }  from 'react';
-import { Nav, NavbarToggler, Collapse, NavItem, Navbar, NavbarBrand, Jumbotron } from 'reactstrap';
-import { NavLink } from 'react-router-dom'
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
-    constructor (props) {
-        super (props);
+
+    constructor(props) {
+        super(props);
 
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-            isNavOpen: false
+          isNavOpen: false
         };
     }
 
@@ -39,22 +40,22 @@ class Header extends Component {
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='./home'>
+                                    <NavLink className="nav-link" to="/home">
                                         <i className="fa fa-home fa-lg" /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='./directory'>
+                                    <NavLink className="nav-link" to="/directory">
                                         <i className="fa fa-list fa-lg" /> Directory
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='./aboutus'>
+                                    <NavLink className="nav-link" to="/aboutus">
                                         <i className="fa fa-info fa-lg" /> About
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='./conactus'>
+                                    <NavLink className="nav-link" to="/contactus">
                                         <i className="fa fa-address-card fa-lg" /> Contact Us
                                     </NavLink>
                                 </NavItem>
