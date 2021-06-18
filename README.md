@@ -10,7 +10,7 @@ The Contact and CampsiteInfo components have controlled forms with client-side d
 ![screencapture-localhost-3000-contactus-2021-06-15-22_48_11](https://user-images.githubusercontent.com/73765884/122154705-8bdb6f80-ce33-11eb-84fe-cbac038542a6.png)
 <br><br>
 
-React transitions are used for rendering various presentational components, including loading animations for asynchronous calls to the database to let the user know what’s happening.
+React transitions are used for rendering various presentational components, including loading animations for asynchronous calls to the database to let the user know when resources are loading.
 
 ![screencapture-localhost-3000-home-2021-06-15-22_46_51](https://user-images.githubusercontent.com/73765884/122154833-ccd38400-ce33-11eb-9b55-55c3409f1a92.png)
 ![screencapture-localhost-3000-home-2021-06-15-22_46_36](https://user-images.githubusercontent.com/73765884/122154947-fee4e600-ce33-11eb-8ada-2fca4884dfce.png)
